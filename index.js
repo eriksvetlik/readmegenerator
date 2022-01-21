@@ -1,5 +1,5 @@
-const inquirer = require("inquirer");
 const fs = require("fs");
+const inquirer = require("inquirer");
 
 var questions = [
   {
@@ -34,8 +34,18 @@ var questions = [
   },
   {
     type: "list",
-    choices: ["MIT", "MIT2"],
+    choices: ["MIT", "GPLv2", "Apache", "ISC"],
     name: "license",
+  },
+  {
+    type: "input",
+    message: "What is your Github username?",
+    name: "username",
+  },
+  {
+    type: "input",
+    message: "What is your email address?",
+    name: "email",
   },
 ];
 inquirer.prompt(questions).then((response) => {
@@ -49,9 +59,16 @@ inquirer.prompt(questions).then((response) => {
 var generateREADME = (data) => {
   return `
   # ${data.title}
+  ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-brightgreen.svg)
   # Description
   ${data.description}
   # Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Test](#test)
+  - [Questions](#questions)
   # Installation
   ${data.installation}
   # Usage
@@ -63,5 +80,7 @@ var generateREADME = (data) => {
   # Test
   ${data.test};
   # Questions
+  - [Username](https://github.com/${data.username})
+  - [Email](mailto:${data.email})
   `;
 };
