@@ -1,12 +1,10 @@
 # Description
 
-In this assignment, our task was to create a random password generator that runs in the browser and is powered by Javascript.
+Create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
-When the user selects "Generate Password", a prompt displays asking them how many characters the password should be - it's required that the password length must be between 8-128 characters.
+When the user runs the application in a command-line application, they are prompted to enter a project title, description, installation instructions, usage information, contribution guidelines, test instructions, license information, and contact information.
 
-Once the user chooses the length of their password, they're meet with additional prompts on if they'd like to include lowercase, uppercase, numeric, and/or special characters in their password - it's required that one character type must be selected.
-
-After the selections, a password is generated with the desired length and character options, and displayed on the page.
+Then a README.md file is generated with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. The information provided by the user is also added to the respective sections.
 
 # Screenshot
 
@@ -14,4 +12,4 @@ After the selections, a password is generated with the desired length and charac
 
 # Link
 
-(https://eriksvetlik.github.io/readmegenerator)
+[Video demonstration](https://drive.google.com/file/d/1WtOMvgSKOMH2ZiuskvM6NBqWTPwuBlyb/view?usp=sharing)
