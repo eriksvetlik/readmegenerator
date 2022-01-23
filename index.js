@@ -80,7 +80,7 @@ var generateREADME = (data) => {
   # Test
   ${data.test};
   # Questions
-  - [Username](https://github.com/${data.username})
+  - [Github](https://github.com/${data.username})
   - [Email](mailto:${data.email})
   `;
 };
