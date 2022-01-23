@@ -59,9 +59,13 @@ inquirer.prompt(questions).then((response) => {
 var generateREADME = (data) => {
   return `
   # ${data.title}
+
   ![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-brightgreen.svg)
+  
   # Description
+
   ${data.description}
+
   # Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -69,22 +73,34 @@ var generateREADME = (data) => {
   - [Contributing](#contributing)
   - [Test](#test)
   - [Questions](#questions)
+
   # Installation
+
   <a name="installation"></a>
   ${data.installation}
+  
   # Usage
+
   <a name="usage"></a>
   ${data.usage}
+
   # License
+
   <a name="license"></a>
   ${data.license}
+
   # Contributing
+
   <a name="contributing"></a>
   ${data.contribution}
+
   # Test
+
   <a name="test"></a>
   ${data.test}
+
   # Questions
+
   <a name="questions"></a>
   - [Github](https://github.com/${data.username})
   - [Email](mailto:${data.email})
