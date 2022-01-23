@@ -66,7 +66,7 @@ var generateREADME = (data) => {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contribution)
+  - [Contributing](#contributing)
   - [Test](#test)
   - [Questions](#questions)
   # Installation
