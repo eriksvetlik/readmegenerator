@@ -66,7 +66,7 @@ var generateREADME = (data) => {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contribution](#contribution)
+  - [Contributing](#contribution)
   - [Test](#test)
   - [Questions](#questions)
   # Installation
@@ -75,10 +75,10 @@ var generateREADME = (data) => {
   ${data.usage}
   # License
   ${data.license}
-  # Contribution
+  # Contributing
   ${data.contribution}
   # Test
-  ${data.test};
+  ${data.test}
   # Questions
   - [Github](https://github.com/${data.username})
   - [Email](mailto:${data.email})
