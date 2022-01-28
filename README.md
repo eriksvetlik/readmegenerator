@@ -6,6 +6,8 @@ When the user runs the application in a command-line application, they are promp
 
 Then a README.md file is generated with the title of the project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. The information provided by the user is also added to the respective sections.
 
+JavaScript | Node.js
+
 # Screenshot
 
 ![Screenshot of webpage](./images/homework-readme.png)
