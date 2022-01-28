@@ -1,6 +1,6 @@
 # Description
 
-Create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
+In this assignment, our task was to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
 When the user runs the application in a command-line application, they are prompted to enter a project title, description, installation instructions, usage information, contribution guidelines, test instructions, license information, and contact information.
 
